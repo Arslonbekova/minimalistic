@@ -1,0 +1,202 @@
+@media screen and (max-width: 1024px) {
+  .container {
+    max-width: 884px;
+  }
+  main {
+    gap: 80px;
+  }
+  main #hero .container .hero-text p {
+    padding: 0 120px;
+  }
+  main #hero .container .hero-bottom .hero-bot .img-box {
+    width: 427px;
+    height: 390px;
+  }
+  main #a2 .container {
+    justify-content: center;
+    padding: 64px 0px;
+  }
+  main #a2 .container .img-box {
+    display: none;
+  }
+  main #a2 .container .a2-text .text-bottom .text {
+    align-items: center;
+  }
+  main #a2 .container .a2-text .text-bottom .text p {
+    text-align: center;
+  }
+  main #a3 .container {
+    gap: 25px;
+    flex-wrap: wrap;
+  }
+  main #a3 .container .img-box {
+    max-width: 429px;
+    background-size: cover;
+    background-position: center;
+  }
+  main #a3 .container .text-box {
+    max-width: 429px;
+    height: 578px;
+    gap: 16px;
+  }
+  main #a3 .container .text-box .text-top p {
+    padding-bottom: 20px;
+  }
+  main #a3 .container .text-box .text p {
+    color: #285E67;
+  }
+  main #a4 .container {
+    justify-content: center;
+    padding: 64px 112px;
+  }
+  main #a4 .container .img-box {
+    display: none;
+  }
+  main #a4 .container .a2-text .text-bottom .text {
+    align-items: center;
+  }
+  main #a4 .container .a2-text .text-bottom .text p {
+    text-align: center;
+  }
+  main #a5 .container {
+    padding: 14px 126px 200px 121px;
+  }
+  main #a6 .container .container1 {
+    transform: translate(68px, -248px);
+    max-width: 743px;
+    padding: 71px 66px;
+    gap: 49px;
+  }
+  main #a6 .container .container1 .icon-box img {
+    width: 60px;
+    height: 60px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .container {
+    max-width: 360px;
+  }
+  header nav .container {
+    padding: 28px 0 64px 0;
+    align-items: center;
+  }
+  header nav .container .nav-right {
+    max-width: 0px;
+  }
+  header nav .container label {
+    display: block;
+  }
+  header nav .container input:checked + .nav-right {
+    max-width: 130px;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  main {
+    gap: 36px;
+  }
+  main #hero .container .hero-text h1 {
+    font-size: 37.9px;
+    line-height: 47px;
+  }
+  main #hero .container .hero-text p {
+    padding: 0;
+  }
+  main #hero .container .hero-bottom .hero-bot {
+    flex-wrap: wrap;
+  }
+  main #hero .container .hero-bottom .hero-bot .img-box {
+    width: 356px;
+    height: 391px;
+  }
+  main #a2 .container {
+    align-self: stretch;
+    padding: 64px 60px;
+  }
+  main #a2 .container .a2-text h2 {
+    max-width: 358px;
+    text-align: center;
+    font-size: 39.7px;
+    line-height: 53px;
+  }
+  main #a2 .container .a2-text .text-bottom {
+    max-width: 358px;
+    flex-direction: column;
+    align-items: center;
+  }
+  main #a3 .container .text-box .text-top h2 {
+    font-size: 39.7px;
+    line-height: 49px;
+    text-align: center;
+  }
+  main #a3 .container .text-box .text-top p {
+    text-align: center;
+  }
+  main #a4 .container {
+    padding: 64px 44px;
+  }
+  main #a4 .container .a2-text {
+    align-items: center;
+  }
+  main #a4 .container .a2-text h2 {
+    max-width: 358px;
+    text-align: center;
+    font-size: 39.7px;
+    line-height: 53px;
+  }
+  main #a4 .container .a2-text .text-bottom {
+    max-width: 281px;
+    flex-direction: column;
+    align-items: center;
+  }
+  main #a4 .container .a2-text .text-bottom .text p {
+    width: 281px;
+  }
+  main #a5 .container {
+    padding: 71px 63px;
+    max-width: 361px;
+    height: 354px;
+    border-radius: 12px;
+    background-size: cover;
+  }
+  main #a5 .container .text {
+    gap: 16px;
+  }
+  main #a5 .container .text img {
+    width: 46.558px;
+    height: 41.474px;
+  }
+  main #a5 .container .text .bottom {
+    gap: 16px;
+  }
+  main #a5 .container .text .bottom .text-center {
+    width: 236px;
+  }
+  main #a5 .container .text .bottom .text-center h3 {
+    text-align: center;
+    font-size: 25px;
+    line-height: 31px;
+  }
+  main #a5 .container .text .bottom .text-center p {
+    display: none;
+  }
+  main #a5 .container .text .bottom a {
+    width: 198px;
+    font-size: 16.33px;
+    line-height: 24px;
+    padding: 12px;
+  }
+  main #a6 .container .container1 {
+    position: relative;
+    transform: translate(27px, -96px);
+    max-width: 298px;
+    padding: 71px 0px;
+    gap: 49px;
+  }
+  main #a6 .container .container1 .icon-box img {
+    width: 60px;
+    height: 60px;
+  }
+  footer .container {
+    max-width: 155px;
+  }
+}/*# sourceMappingURL=media.css.map */

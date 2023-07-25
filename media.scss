@@ -1,0 +1,280 @@
+@media screen and (max-width:1024px) {
+    .container{
+        max-width: 884px;
+    }
+   main{
+    gap: 80px;
+    #hero{
+        .container{
+            .hero-text{
+                p{
+                    padding:0 120px ;
+                }
+            }
+            .hero-bottom{
+                .hero-bot{
+                    .img-box{
+                        width: 427px;
+                        height: 390px;
+                    }
+                }
+            }
+        }
+    }
+    #a2{
+        .container{
+            justify-content: center;
+            padding: 64px 0px;
+            .img-box{
+                display: none;
+            }
+            .a2-text{
+                .text-bottom{
+                    .text{
+                        align-items: center;
+                        p{
+                            text-align: center;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    #a3{
+        .container{
+            gap: 25px;
+            flex-wrap: wrap;
+            .img-box{
+                max-width: 429px;
+                background-size: cover;
+                background-position: center;
+            }
+            .text-box{
+                max-width: 429px;
+                height: 578px;
+                gap: 16px;
+                .text-top{
+                    p{
+                        padding-bottom: 20px;
+                    }
+                }
+                .text{
+                    p{
+                        color: #285E67;
+                    }
+                }
+            }
+        }
+    }
+    #a4{
+        .container{
+            justify-content: center;
+            padding: 64px 112px;
+            .img-box{
+                display: none;
+            }
+            .a2-text{
+                .text-bottom{
+                    .text{
+                        align-items: center;
+                        p{
+                            text-align: center;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    #a5{
+        .container{
+           padding: 14px 126px 200px 121px;
+        }
+    }
+    #a6{
+        .container{
+            .container1{
+                transform: translate(68px, -248px);
+                max-width: 743px;
+                padding: 71px 66px;
+                gap:49px;
+                .icon-box{
+                    img{
+                        width: 60px;
+                        height: 60px;
+                    }
+                }
+            }
+        }
+    }
+   }
+    
+}
+
+
+@media screen and (max-width:480px) {
+    .container{
+        max-width: 360px;
+    }
+    header{
+        nav{
+            .container{
+                padding: 28px 0 64px 0;
+                align-items: center;
+                .nav-right{
+                    max-width: 0px;
+                }
+                label{
+                    display: block;
+                }
+                input:checked + .nav-right{
+                    max-width: 130px;
+                    flex-wrap: wrap;
+                    gap: 10px;
+                }
+            }
+        }
+    }
+    main{
+        gap: 36px;
+        #hero{
+            .container{
+                .hero-text{
+                    h1{
+                        font-size: 37.9px;
+                        line-height: 47px;
+                    }
+                    p{
+                        padding:0;
+                    }
+                }
+                .hero-bottom{
+                    .hero-bot{
+                        flex-wrap: wrap;
+                        .img-box{
+                            width: 356px;
+                            height: 391px;
+                        }
+                    }
+                }
+            }
+        }
+        #a2{
+            .container{
+                align-self: stretch;
+                padding: 64px 60px;
+                .a2-text{
+                    h2{
+                        max-width: 358px;
+                        text-align: center;
+                        font-size: 39.7px;
+                        line-height: 53px;
+                    }
+                    .text-bottom{
+                        max-width: 358px;
+                        flex-direction: column;
+                        align-items: center;
+                    }
+                }
+            }
+        }
+        #a3{
+            .container{
+                .text-box{
+                    .text-top{
+                        h2{
+                            font-size: 39.7px;
+                            line-height: 49px; 
+                            text-align: center;
+                        }
+                        p{
+                            text-align: center;
+                        }
+                    }
+                }
+            }
+        }
+        #a4{
+            .container{
+                padding: 64px 44px;
+                .a2-text{
+                    align-items: center;
+                    h2{
+                        max-width: 358px;
+                        text-align: center;
+                        font-size: 39.7px;
+                        line-height: 53px;
+                    }
+                    .text-bottom{
+                        max-width: 281px;
+                        flex-direction: column;
+                        align-items: center;
+                        .text{
+                            p{
+                                width: 281px;
+                            }
+                        }
+                    }
+
+                }
+            }
+        }
+        #a5{
+            .container{
+                padding: 71px 63px;
+                max-width: 361px;
+                height: 354px;
+                border-radius: 12px;
+                background-size: cover;
+                .text{
+                    gap:16px;
+                    img{
+                        width: 46.558px;
+                        height: 41.474px;
+                    }
+                    .bottom{
+                        gap: 16px;
+                        .text-center{
+                            width: 236px;
+                            h3{
+                                text-align: center;
+                                font-size: 25px;
+                                line-height: 31px; 
+                            }
+                            p{
+                                display: none;
+                            }
+                        }
+                        a{
+                            width: 198px;
+                            font-size: 16.33px;
+                            line-height: 24px;
+                            padding: 12px;
+                        }
+                    }
+                }
+            }
+        }
+        #a6{
+            .container{
+                .container1{
+                    position: relative;
+                    transform: translate(27px, -96px);
+                    max-width: 298px;
+                    padding: 71px 0px;
+                    gap: 49px;
+                    .icon-box{
+                        img{
+                            width: 60px;
+                            height: 60px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    footer{
+        .container{
+            max-width: 155px;
+        }
+    }
+}
