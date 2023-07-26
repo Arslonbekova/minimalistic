@@ -84,7 +84,9 @@
     max-width: 0px;
     background: #285E67;
     border-radius: 10px;
-    padding: 2px;
+  }
+  header nav .container .nav-right li a {
+    color: #fff;
   }
   header nav .container label {
     display: block;
@@ -93,6 +95,7 @@
     max-width: 130px;
     flex-wrap: wrap;
     gap: 10px;
+    padding: 2px;
   }
   main {
     gap: 36px;

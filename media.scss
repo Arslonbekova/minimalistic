@@ -124,7 +124,11 @@
                     max-width: 0px;
                     background: #285E67;
                     border-radius: 10px;
-                    padding: 2px;
+                    li{
+                        a{
+                            color: #fff;
+                        }
+                    }
                 }
                 label{
                     display: block;
@@ -133,6 +137,7 @@
                     max-width: 130px;
                     flex-wrap: wrap;
                     gap: 10px;
+                    padding: 2px;
                 }
             }
         }
