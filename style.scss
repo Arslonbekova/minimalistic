@@ -89,6 +89,7 @@ main{
     gap: 104px;
     #hero{
         .container{
+            padding-top: 80px;
             flex-direction: column;
             gap: 33px;
             .hero-text{
@@ -225,6 +226,7 @@ main{
                 .text{
                     display: flex;
                     gap: 23px;
+                    align-items: center;
                     p{
                         @include p-text()
                     }
@@ -278,7 +280,7 @@ main{
                 height: 416px;
                 padding: 177px 369px 41px 0px;
                 background:url("img/Illustration\ 2.png") no-repeat center;
-                background-size: 291px;
+                background-size: contain;
             }
         }
 

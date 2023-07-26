@@ -65,6 +65,7 @@ main {
   gap: 104px;
 }
 main #hero .container {
+  padding-top: 80px;
   flex-direction: column;
   gap: 33px;
 }
@@ -225,6 +226,7 @@ main #a3 .container .text-box .text-top p {
 main #a3 .container .text-box .text {
   display: flex;
   gap: 23px;
+  align-items: center;
 }
 main #a3 .container .text-box .text p {
   color: var(--surface-surface-invert, #2A2A2A);
@@ -292,7 +294,7 @@ main #a4 .container .img-box {
   height: 416px;
   padding: 177px 369px 41px 0px;
   background: url("img/Illustration 2.png") no-repeat center;
-  background-size: 291px;
+  background-size: contain;
 }
 main #a5 .container {
   padding: 150px 360px 200px 300px;
